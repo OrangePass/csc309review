@@ -139,7 +139,10 @@ function change() {
 </html>
 
 ```
-##### (b)
+##### (b) How does the URL request that is sent to the server look like when a user fills the above form with the following information and clicks the submit button(login: admin, password:csc309)?
+```
+URL = http://localhost/form_submitted.php?login=admin&password=csc309
+```
 ##### (c)
 #### Question 5
 ##### (a) Given the XML document below, write a JSON document that carries the same information.
