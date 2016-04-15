@@ -59,7 +59,7 @@ Number of Variables:
 <body>
 	<div>
 		<a href="http://www.utoronto.ca">
-		<img id="logo" src="uoftlogo.png" width="100px"></a>
+		<img id="logo" src="https://github.com/OrangePass/csc309review/blob/master/src/img/uoftlogo.png" width="100px"></a>
 		<h1>Question 1</h1>
 		<div>
 			<img id="header" src="header.jpg" width="150px" />
