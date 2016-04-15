@@ -55,6 +55,7 @@ Number of Variables:
 |               |               |
 |               |               |
 #### Question 3
+You are given a web page with any arbitrary number of images, videos, and information about them. Write a Javascript function "change()" that will remove or hide all the information in the page and display only the images. A snippet of the webpage's html is provided below. Your code should work for any arbitrary numbe of img or any other elements. Partial marks will be granted for providing adequate pseudocode as an answer.
 ```html
 <body>
 	<div>
@@ -75,6 +76,36 @@ Number of Variables:
 		<a onclick="change()" href="#">Show Images</a>
 	</div>	
 </body>
+```
+Write your code below:
+```html
+<script type="text/javascript">
+function change() {
+	// go over each tags, hides every tags except html/body
+	var objs = document.all;
+	for (var j=0; j<objs.length; j++) {
+		if (objs[j].nodeName.toLowerCase()=='html' || objs[j].nodeName.toLowerCase()=='body') {
+			continue;
+		}
+		objs[j].style.display = 'none';
+	}
+	
+	// get each img tag
+	var img = document.getElementsByTagName('img');
+	for (var i=0; i<img.length; i++) {
+		
+		// "display" img tags
+		img[i].style.display = 'block';
+		
+		// set the parent of each img tags
+		var tempObj = img[i];
+		while (tempObj.parentNode.nodeName.toLowerCase() != 'body') {
+			tempObj = tempObj.parentNode;
+			tempObj.style.display = 'block';
+		}
+	}
+}
+</script>
 ```
 #### Question 4
 ##### (a)
