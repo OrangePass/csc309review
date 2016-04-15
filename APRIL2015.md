@@ -108,7 +108,36 @@ function change() {
 </script>
 ```
 #### Question 4
-##### (a)
+##### (a) Write HTML code that represents the following HTML form. Your form should send the submitted request using the GET method to a new webpage with the name "form_submitted.php". You do not need to make any validation on the client side.
+```html
+<html>
+<body>
+    <h1>Login Form</h1>
+    <form method="get" action="form_submitted.php">
+        <table>
+            <tr>
+                <td>Login:</td>
+                <td>
+                    <input type="text" name="login">
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Log in</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+```
 ##### (b)
 ##### (c)
 #### Question 5
