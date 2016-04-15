@@ -55,6 +55,27 @@ Number of Variables:
 |               |               |
 |               |               |
 #### Question 3
+```html
+<body>
+	<div>
+		<a href="http://www.utoronto.ca">
+		<img id="logo" src="uoftlogo.png" width="100px"></a>
+		<h1>Question 1</h1>
+		<div>
+			<img id="header" src="header.jpg" width="150px" />
+			<video width="320" height="240" controls>
+				<source src="movie.mp4" type="video/mp4">
+				<source src="movie.ogg" type="" media="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		......
+		<!--Any arbitrary number of img or other elements -->
+		......
+		<a onclick="change()" href="#">Show Images</a>
+	</div>	
+</body>
+```
 #### Question 4
 ##### (a)
 ##### (b)
