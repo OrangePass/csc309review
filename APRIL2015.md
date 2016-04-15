@@ -7,6 +7,38 @@ A POST request is more appropriate than a GET because:
 1.
 2.
 #### Question 2
+```html
+<html>
+<body>
+<form action="process.php  " method="POST">
+<h1>Complaint Form</h1>
+<table border="0">
+	<tr><td>Your name*:</td><td><input type="text" name="name"></td></tr>
+	<tr><td>E-mail*:</td><td><input type="text" name="email"></td></tr>
+	<tr><td>Phone number*:</td><td><input type="text" name="phone"></td></tr>
+	<tr><td>Website:</td><td><input type="text" name="url" value="http://"></td></tr>
+	<tr>
+		<td>Sex:<input type="radio" name="sex" value="male">Male</td>
+		<td><input type="radio" name="sex" value="female" checked>Female</td>
+	</tr>
+	<tr>
+		<td>Contact Request:</td>
+		<td>
+			<input type="checkbox" name="contact" value="phone" checked>By Phone
+			<input type="checkbox" name="contact" value="email" checked>By Email
+		</td>
+	</tr>
+</table>
+<p>Comments*:<br>
+<input type="hidden" name="product_id" value="23">
+<input type="hidden" name="form_id" value="form1">
+<input type="hidden" name="language" value="English">
+<<textarea name="comment:" rows="3" col="30"></textarea><br>
+<input type="submit" value="Submit form">
+</form>
+</body>
+</html>
+```
 ##### (a) Draw how the above HTML code will appear on a contemporary browser.
 ##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
 Destination URL:
