@@ -39,6 +39,7 @@ A POST request is more appropriate than a GET because:
 </body>
 </html>
 ```
+![alt text](https://github.com/OrangePass/csc309review/blob/master/april2015q2.png "abc")
 ##### (a) Draw how the above HTML code will appear on a contemporary browser.
 ##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
 Destination URL:
