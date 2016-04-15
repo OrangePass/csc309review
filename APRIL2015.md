@@ -157,7 +157,7 @@ Same-origin Policy:
 1.
 2.
 ##### (b) Mention two ways to make your website rank higher in search engines:
-```md
+```markdown
 1.Publish relevant content
 
 Quality content is the number one driver of your search engine rankings and there is no substitute for great content. Quality content created specifically for your intended user increases site traffic, which improves your site’s authority and relevance.
@@ -189,11 +189,11 @@ Focus on creating relevant links within the text. Instead of having “click her
 
 5.Use alt tags
 Always describe your visual and video media using alt tags, or alternative text descriptions. They allow search engines to locate your page, which is crucial—especially for those who use text-only browsers.
+```
 ##### (c) What is PageRank and how it works (give the main idea)? https://en.wikipedia.org/wiki/PageRank
 PageRank is an algorithm used by Google Search to rank websites in their search engine results. PageRank was named after Larry Page, one of the founders of Google. PageRank is a way of measuring the importance of website pages. According to Google:
 
 PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more important websites are likely to receive more links from other websites.
-```
 #### Question 11
 - [T] UDP is less reliable than TCP.
       The reason that UDP is less reliable than TCP as a transport protocol is that UDP provides neither error checking nor sequence
