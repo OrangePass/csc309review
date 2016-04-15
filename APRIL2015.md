@@ -15,6 +15,12 @@ Number of Variables:
 ##### (d) List the variable name and variable value of all the variables that become availabe in the destination URL if a user submits the above form as-is (without filling-in any extra fields). If a variable is empty or null just indicate its value as "N/A" (Not Available).
 | Variable Name | Variable Value|
 | ------------- |:-------------:|
+|               |               |
+|               |               |
+|               |               |
+|               |               |
+|               |               |
+|               |               |
 #### Question 3
 #### Question 4
 ##### (a)
