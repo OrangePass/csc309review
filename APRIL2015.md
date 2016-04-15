@@ -1,13 +1,20 @@
 # CSC309 APRIL 2015 EXAM SOLUTION
 #### Question 1
-##### (a)
-##### (b)
-##### (c)
+##### (a) What it means that the HTTP protocol is stateless?
+##### (b) Mention three different ways to maintain state in HTTP sessions?
+##### (c) The HTTP protocol allows to send a GET or a POST request to the server, for example when submitting an html form. Give 2 reasons for using POST (instead of GET) in a bulleted format:
+A POST request is more appropriate than a GET because:
+1.
+2.
 #### Question 2
-##### (a)
-##### (b)
-##### (c)
-##### (d)
+##### (a) Draw how the above HTML code will appear on a contemporary browser.
+##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
+Destination URL:
+##### (c) How many variables become available to the destination URL (after submitting the form)?
+Number of Variables:
+##### (d) List the variable name and variable value of all the variables that become availabe in the destination URL if a user submits the above form as-is (without filling-in any extra fields). If a variable is empty or null just indicate its value as "N/A" (Not Available).
+| Variable Name | Variable Value|
+| ------------- |:-------------:|
 #### Question 3
 #### Question 4
 ##### (a)
