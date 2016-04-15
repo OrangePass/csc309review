@@ -143,7 +143,7 @@ function change() {
 ```
 URL = http://localhost/form_submitted.php?login=admin&password=csc309
 ```
-##### (c)
+##### (c) Write simple server-side code (in a programming language of your preference: php, NodeJS, python, etc.) that processes the submitted information of the above URL request. If the provided login and password are the same prints an error message "Error: Login Failed", otherwise prints a feedback message "Login Successful".
 ```php
 <?php
 
