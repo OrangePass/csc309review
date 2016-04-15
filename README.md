@@ -1,5 +1,8 @@
 # csc309review
-- [ ] 2015 April
+Before you start, please read READEM.md firstly.
+在你行动前，请确保您已阅读README.md。
+
+- [ ] 2015 April Finish rate: 35.8%
   - [ ] Q1 0/3
   - [ ] Q2 1/4
   - [x] Q3 1/1
