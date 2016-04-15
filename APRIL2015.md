@@ -152,7 +152,23 @@ function change() {
   }
 }
 ```
-##### (b)
+##### (b) Given the JSON data you produced and the following expression that gives you access to it:
+```javascript
+var data = JSON.parse(ajax.responseText);
+```
+write a Javascript expression that would produce:
+- The language in which the book is written?
+```javascript
+var booklanguage = data.book.content.title.lang;
+```
+- The name of the 3rd author of the book?
+```javascript
+var author3 = data.book.content.author[2];
+```
+- The address of the store where the book is available?
+```javascript
+var storeAddress =  data.book.content.store.address;
+```
 #### Question 6
 ##### (a)
 ##### (b)
