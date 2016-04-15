@@ -33,7 +33,7 @@ A POST request is more appropriate than a GET because:
 <input type="hidden" name="product_id" value="23">
 <input type="hidden" name="form_id" value="form1">
 <input type="hidden" name="language" value="English">
-<<textarea name="comment:" rows="3" col="30"></textarea><br>
+<textarea name="comment:" rows="3" col="30"></textarea><br>
 <input type="submit" value="Submit form">
 </form>
 </body>
