@@ -109,7 +109,9 @@ Same-origin Policy:
 2.
 ##### (c) What is PageRank and how it works (give the main idea)?
 #### Question 11
-- [ ] UDP is less reliable than TCP.
+- [T] UDP is less reliable than TCP.
+      The reason that UDP is less reliable than TCP as a transport protocol is that UDP provides neither error checking nor sequence
+numbering.
 - [ ] Form validation should only be done in client side.
 - [ ] Cookies are only data, not program code.
 - [ ] Cookies cannot be used by third-party websites to track user browsing habits.
