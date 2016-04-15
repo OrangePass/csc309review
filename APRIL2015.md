@@ -144,6 +144,16 @@ function change() {
 URL = http://localhost/form_submitted.php?login=admin&password=csc309
 ```
 ##### (c)
+```php
+<?php
+
+if ($_GET['login'] == $_GET['password']) {
+    echo 'Error, Login Failed';
+} else {
+    echo 'Login Successful';
+}
+?>
+```
 #### Question 5
 ##### (a) Given the XML document below, write a JSON document that carries the same information.
 ### XML
