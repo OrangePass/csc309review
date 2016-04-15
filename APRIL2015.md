@@ -1,7 +1,7 @@
 # CSC309 APRIL 2015 EXAM SOLUTION
-## Question 1
-### (a)
-### (b)
+#### Question 1
+##### (a)
+##### (b)
 (c)
 Question 2
 (a)
