@@ -167,7 +167,7 @@ var author3 = data.book.content.author[2];
 ```
 - The address of the store where the book is available?
 ```javascript
-var storeAddress =  data.book.content.store.address;
+var storeAddress = data.book.content.store.address;
 ```
 #### Question 6
 ##### (a)
