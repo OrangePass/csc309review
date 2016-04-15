@@ -112,7 +112,33 @@ function change() {
 ##### (b)
 ##### (c)
 #### Question 5
-##### (a)
+##### (a) Given the XML document below, write a JSON document that carries the same information.
+```JSON
+{
+  "book": {
+    "category": "web",
+    "content": {
+      "title": {
+        "lang": "english",
+        "content": "XQuery kick Start"
+      },
+      "author": [
+        "James McGovern",
+        "Per Bothner",
+        "Kurt Cagle"
+      ],
+      "year": "2003",
+      "Price": "49.99",
+      "store": {
+        "address": "24 Bay st",
+        "city": "Toronto",
+        "province": "ON",
+        "code": "MSY3A1"
+      }
+    }
+  }
+}
+```
 ##### (b)
 #### Question 6
 ##### (a)
