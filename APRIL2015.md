@@ -76,13 +76,13 @@ Same-origin Policy:
 2.
 ##### (c) What is PageRank and how it works (give the main idea)?
 #### Question 11
--[] UDP is less reliable than TCP.
-[] Form validation should only be done in client side.
-[] Cookies are only data, not program code.
-[] Cookies cannot be used by third-party websites to track user browsing habits.
-[] The "Remember Me" feature, where the user's login info is remembered and reused when the user comes back is implemented requries the use of persistent cookies.
-[] In asynchronous communication, a user cannot interact with a webpage while new data is loaded from the server.
-[] In a 3-tier architecture unconnected tiers should not communicate.
-[] Using the universal selector (*) in a Javascript function to do DOM manipulation will increase the performance of your script.
-[] XML representation is less verbose thant JSON(i.e., XML is using fewer words to describe a model than JSON), hence XML is the preferred data interchange format in online applications.
-[] POST method can submit data without encoding.
+- [] UDP is less reliable than TCP.
+- [] Form validation should only be done in client side.
+- [] Cookies are only data, not program code.
+- [] Cookies cannot be used by third-party websites to track user browsing habits.
+- [] The "Remember Me" feature, where the user's login info is remembered and reused when the user comes back is implemented requries the use of persistent cookies.
+- [] In asynchronous communication, a user cannot interact with a webpage while new data is loaded from the server.
+- [] In a 3-tier architecture unconnected tiers should not communicate.
+- [] Using the universal selector (*) in a Javascript function to do DOM manipulation will increase the performance of your script.
+- [] XML representation is less verbose thant JSON(i.e., XML is using fewer words to describe a model than JSON), hence XML is the preferred data interchange format in online applications.
+- [] POST method can submit data without encoding.
