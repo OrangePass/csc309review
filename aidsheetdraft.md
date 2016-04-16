@@ -20,3 +20,12 @@
 3 **Web Browser Vs Web Server**
  * Web Browser requests and parses documents from web servers
  * Web Server listens for web page requests
+
+4 **Domain Name Server (DNS)**
+ * Set of servers that map (translate) written names to IP addresses
+  * Example: www.cs.toronto.edu → 128.100.3.40
+ * Many systems maintain a local cache called a hosts file
+
+5 **Uniform Resource Locator (URL)**
+ * Identifies the path to a document on the web server
+ * 
