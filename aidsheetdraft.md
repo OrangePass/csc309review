@@ -28,4 +28,25 @@
 
 5 **Uniform Resource Locator (URL)**
  * Identifies the path to a document on the web server
- * 
+ * Upon entering this URL into the browser, it would:
+  * ask the DNS server for the IP address of the URL
+  * connect to that IP address at port 80
+  * request the document from the server by sending
+   * GET mashiyat/csc309/index.htm
+  * parse and display the resulting page on the screen
+
+6 **Hypertext Transport Protocol (HTTP)**
+ * Set of commands understood by a web server and sent from a browser
+ * Some HTTP commands (your browser sends these internally):
+  * GET filename: download
+  * POST filename: send a web form response
+  * PUT filename: upload
+
+7 **TCP/IP: Protocol Framework**
+| TCP/IP Layers | TCP/IP Protocols |
+| ------------- |:-------------:| -----:|
+| Application Layer | HTTP | FTP | Telnet | SMTP | DNS |
+| Transport Layer | TCP | UDP |
+| Network Layer | IP | ARP | ICMP | IGMP |
+| Network Interface Layer| Ethernet | Token Ring | Other Link-Layer Protocols|
+
