@@ -52,14 +52,48 @@
 | Network Interface Layer |     Ethernet     | Token Ring | Other Link=Layer Protocols |      |
 
 
--------------------------------------------------------------
- Centered   Default           Right Left
-  Header    Aligned         Aligned Aligned
------------ ------- --------------- -------------------------
-   First    row                12.0 Example of a row that
-                                    spans multiple lines.
-
-  Second    row                 5.0 Here's another one. Note
-                                    the blank line between
-                                    rows.
--------------------------------------------------------------
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">TCP/IP Layers</th>
+    <th class="tg-s6z2">TCP/IP Protocols</th>
+    <th class="tg-yw4l"></th>
+    <th class="tg-yw4l"></th>
+    <th class="tg-yw4l"></th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Application Layer</td>
+    <td class="tg-baqh">HTTP</td>
+    <td class="tg-yw4l">FTP</td>
+    <td class="tg-yw4l">SMTP</td>
+    <td class="tg-yw4l">DNS</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Transport Layer</td>
+    <td class="tg-baqh">TCP</td>
+    <td class="tg-yw4l">UDP</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Network Layer</td>
+    <td class="tg-baqh">IP</td>
+    <td class="tg-yw4l">ARP</td>
+    <td class="tg-yw4l">ICMP</td>
+    <td class="tg-yw4l">IGMP</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Network Interface Layer</td>
+    <td class="tg-baqh">Ethernet</td>
+    <td class="tg-yw4l">Token Ring</td>
+    <td class="tg-yw4l">Other Link=Layer Protocols</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+</table>
