@@ -296,7 +296,7 @@ PageRank works by counting the number and quality of links to a page to determin
 - [T] UDP is less reliable than TCP.
       The reason that UDP is less reliable than TCP as a transport protocol is that UDP provides neither error checking nor sequence
 numbering.
-- [F] Form validation should only be done in client side. Validation can be done both in client and sever side. http://stackoverflow.com/questions/15855770/why-do-we-need-both-client-side-and-server-side-validation
+- [F] Form validation should only be done in client side. [Validation can be done both in client and sever side.](http://stackoverflow.com/questions/15855770/why-do-we-need-both-client-side-and-server-side-validation)
 - [T] Cookies are only data, not program code. lecture27.5-cookies_sessions.pdf
 - [F] Cookies cannot be used by third-party websites to track user browsing habits.
 - [ ] The "Remember Me" feature, where the user's login info is remembered and reused when the user comes back is implemented requries the use of persistent cookies.
