@@ -51,6 +51,7 @@
 | Network Layer           |        IP        | ARP        | ICMP                       | IGMP |
 | Network Interface Layer |     Ethernet     | Token Ring | Other Link=Layer Protocols |      |
 
+
 |             |          Grouping           ||
 First Header  | Second Header | Third Header |
  ------------ | :-----------: | -----------: |
