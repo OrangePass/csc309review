@@ -25,7 +25,7 @@ A POST request is more appropriate than a GET because:
 		<td>Contact Request:</td>
 		<td>
 			<input type="checkbox" name="contact" value="phone" checked>By Phone
-			<input type="checkbox" name="contact" value="email" checked>By Email
+			<input type="checkbox" name="contact" value="email">By Email
 		</td>
 	</tr>
 </table>
@@ -48,12 +48,17 @@ Number of Variables: 9
 ##### (d) List the variable name and variable value of all the variables that become availabe in the destination URL if a user submits the above form as-is (without filling-in any extra fields). If a variable is empty or null just indicate its value as "N/A" (Not Available).
 | Variable Name | Variable Value|
 | ------------- |:-------------:|
-|               |               |
-|               |               |
-|               |               |
-|               |               |
-|               |               |
-|               |               |
+|    name       |      N/A      |
+|    email      |      N/A      |
+|    phone      |      N/A      |
+|     url       |      N/A      |
+|     sex       |      male     |
+|    contact    |     phone     |
+|   product_id  |      23       |
+|    form_id    |     form1     |
+|   language    |     English   |
+|   comment     |      N/A      |
+
 #### Question 3
 You are given a web page with any arbitrary number of images, videos, and information about them. Write a Javascript function "change()" that will remove or hide all the information in the page and display only the images. A snippet of the webpage's html is provided below. Your code should work for any arbitrary numbe of img or any other elements. Partial marks will be granted for providing adequate pseudocode as an answer.
 ```html
