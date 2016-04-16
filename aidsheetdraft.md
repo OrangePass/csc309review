@@ -43,6 +43,7 @@
   * PUT filename: upload
 
 7 **TCP/IP: Protocol Framework**
+
 | TCP/IP Layers           | TCP/IP Protocols |            |                            |      |
 |-------------------------|:----------------:|------------|----------------------------|------|
 | Application Layer       |       HTTP       | FTP        | SMTP                       | DNS  |
