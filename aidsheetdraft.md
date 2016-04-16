@@ -8,3 +8,6 @@ IP Addresses:
 ¤ 128-bit for IPv6
 
 Transmission Control Protocol (TCP)
+ Adds multiplexing and reliable delivery on top of IP
+¤ Multiplexing: multiple programs using the same IP address
+¤ Reliability: guaranteed, ordered and error-checked delivery
