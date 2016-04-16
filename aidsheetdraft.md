@@ -43,10 +43,10 @@
   * PUT filename: upload
 
 7 **TCP/IP: Protocol Framework**
-| TCP/IP Layers | TCP/IP Protocols |
-| ------------- |:-------------:| -----:|
-| Application Layer | HTTP | FTP | Telnet | SMTP | DNS |
-| Transport Layer | TCP | UDP |
-| Network Layer | IP | ARP | ICMP | IGMP |
-| Network Interface Layer| Ethernet | Token Ring | Other Link-Layer Protocols|
+| TCP/IP Layers           | TCP/IP Protocols |            |                            |      |
+|-------------------------|:----------------:|------------|----------------------------|------|
+| Application Layer       |       HTTP       | FTP        | SMTP                       | DNS  |
+| Transport Layer         |        TCP       | UDP        |                            |      |
+| Network Layer           |        IP        | ARP        | ICMP                       | IGMP |
+| Network Interface Layer |     Ethernet     | Token Ring | Other Link=Layer Protocols |      |
 
