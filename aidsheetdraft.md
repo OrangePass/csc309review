@@ -51,3 +51,11 @@
 | Network Layer           |        IP        | ARP        | ICMP                       | IGMP |
 | Network Interface Layer |     Ethernet     | Token Ring | Other Link=Layer Protocols |      |
 
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||
