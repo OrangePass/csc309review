@@ -261,37 +261,37 @@ Same-origin Policy:
 2.
 ##### (b) Mention two ways to make your website rank higher in search engines:
 
-1 Publish relevant content
+1. **Publish relevant content**
 
-Quality content is the number one driver of your search engine rankings and there is no substitute for great content. Quality content created specifically for your intended user increases site traffic, which improves your site’s authority and relevance.
+	Quality content is the number one driver of your search engine rankings and there is no substitute for great content. Quality content created specifically for your intended user increases site traffic, which improves your site’s authority and relevance.
 
-Identify a keyword phrase for each page. Think about how your reader might search for that specific page (with phrases like “mechanical engineering in Michigan,” “best applied physics program,” or “Michigan Tech degrees”). Then, repeat this phrase several times throughout the page—once or twice in the opening and closing paragraphs, and two to four more times throughout the remaining content.
+	Identify a keyword phrase for each page. Think about how your reader might search for that specific page (with phrases like “mechanical engineering in Michigan,” “best applied physics program,” or “Michigan Tech degrees”). Then, repeat this phrase several times throughout the page—once or twice in the opening and closing paragraphs, and two to four more times throughout the remaining content.
 
-Don’t forget to use bold, italics, heading tags, and other emphasis tags to highlight keyword phrases, but don’t overdo it.
+	Don’t forget to use bold, italics, heading tags, and other emphasis tags to highlight keyword phrases, but don’t overdo it.
 
-Never sacrifice good writing for SEO. The best pages are written for the user, not for the search engine.
+	Never sacrifice good writing for SEO. The best pages are written for the user, not for the search engine.
 
-2 Update your content regularly
+2. **Update your content regularly**
 
-You’ve probably noticed that we feel pretty strongly about content. Search engines do, too. Regularly updated content is viewed as one of the best indicators of a site’s relevancy, so be sure to keep it fresh.
+	You’ve probably noticed that we feel pretty strongly about content. Search engines do, too. Regularly updated content is viewed as one of the best indicators of a site’s relevancy, so be sure to keep it fresh.
 
-3. Metadata
-When designing your website, each page contains a space between the <head> tags to insert metadata, or information about the contents of your page. If you have a CMS site, the UMC web team will have pre-populated this data for you:
+3. **Metadata**
+	When designing your website, each page contains a space between the <head> tags to insert metadata, or information about the contents of your page. If you have a CMS site, the UMC web team will have pre-populated this data for you:
 
-Title Metadata
-Title metadata is responsible for the page titles displayed at the top of a browser window. It is the most important metadata on your page. For those with a CMS website, the web team has developed an automated system for creating the meta title for each webpage.
+	* **Title Metadata**
+	Title metadata is responsible for the page titles displayed at the top of a browser window. It is the most important metadata on your page. For those with a CMS website, the web team has developed an automated system for creating the meta title for each webpage.
 
-Description Metadata
-Description metadata is the textual description that a browser will use in your page search return. Think of it as your site’s window display—a concise and appealing description of what is contained within, with the goal of encouraging people to enter.
+	* **Description Metadata**
+	Description metadata is the textual description that a browser will use in your page search return. Think of it as your site’s window display—a concise and appealing description of what is contained within, with the goal of encouraging people to enter.
 
-Keyword Metadata
-Keyword metadata are the search phrases that people type when they want to find your page. You’ll want to include a variety of phrases. However, don’t get greedy: if your list becomes excessive, the browser may completely ignore the data. As a general rule, try to keep it to about 6-8 phrases with each phrase consisting of 1-4 words. A great example would be "computer science degree."
+	* **Keyword Metadata**
+	Keyword metadata are the search phrases that people type when they want to find your page. You’ll want to include a variety of phrases. However, don’t get greedy: if your list becomes excessive, the browser may completely ignore the data. As a general rule, try to keep it to about 6-8 phrases with each phrase consisting of 1-4 words. A great example would be "computer science degree."
 
-4. Have a link-worthy site
-Focus on creating relevant links within the text. Instead of having “click here” links, try writing out the name of the destination. “Click here” has no search engine value beyond the attached URL, whereas “Michigan Tech Enterprise Program” is rich with keywords and will improve your search engine rankings as well as the ranking of the page you are linking to.
+4. **Have a link-worthy site**
+	Focus on creating relevant links within the text. Instead of having “click here” links, try writing out the name of the destination. “Click here” has no search engine value beyond the attached URL, whereas “Michigan Tech Enterprise Program” is rich with keywords and will improve your search engine rankings as well as the ranking of the page you are linking to.
 
-5. Use alt tags
-Always describe your visual and video media using alt tags, or alternative text descriptions. They allow search engines to locate your page, which is crucial—especially for those who use text-only browsers.
+5. **Use alt tags**
+	Always describe your visual and video media using alt tags, or alternative text descriptions. They allow search engines to locate your page, which is crucial—especially for those who use text-only browsers.
 
 ##### (c) What is PageRank and how it works (give the main idea)? https://en.wikipedia.org/wiki/PageRank
 PageRank is an algorithm used by Google Search to rank websites in their search engine results. PageRank was named after Larry Page, one of the founders of Google. PageRank is a way of measuring the importance of website pages. According to Google:
