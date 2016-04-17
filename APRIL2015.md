@@ -257,8 +257,19 @@ Salting:
 Same-origin Policy:
 #### Question 10
 ##### (a) Mention two ways of making money on a website:
-1.
-2.
+1. Email Marketing
+2. Sell Advertising Space
+3. Create a Job Board
+4. Selling Services
+5. Review Products as an Affiliate
+6. Promote Products as an Affiliate
+7. Offer a Membership Site or Premium Content
+8. Create & Sell Your Own Digital Product
+9. Sell Paid Directory Listings
+10. Host Webinars & Sell Something
+11. Write Tutorials & Promote Something
+12. Publish a Book
+
 ##### (b) Mention two ways to make your website rank higher in search engines:
 
 1. **Publish relevant content**
