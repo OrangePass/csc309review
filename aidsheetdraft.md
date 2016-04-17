@@ -100,3 +100,16 @@
  * Not the same as the presentation (appearance on screen)
  * Surrounds text content with opening and closing tags
  * Each tag's name is called an element
+
+### LESS & SASS
+CSS Pre-processor: converts code written in a preprocessec language to CSS
+* DRY principle (don't repeat yourself)
+ * Variables
+ * Minxins
+ * Functions
+* Maintainability
+* Readability
+* Natural Extension
+* You	can	change	the	extension	of	.CSS	files	to	.LESS	and	start	typing	LESS	
+• You	can	define	namespaces	similar	to	C/C++	that	can	ignore	variables?	
+• You	can	use	CSS	funcBons	by	escaping	them
