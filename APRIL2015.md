@@ -40,7 +40,7 @@ A POST request is more appropriate than a GET because:
 </html>
 ```
 ##### (a) Draw how the above HTML code will appear on a contemporary browser.
-![alt text](https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q2.png "别瞅了，这就是答案")
+	![alt text](https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q2.png "别瞅了，这就是答案")
 ##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
 Destination URL: ./process.php
 ##### (c) How many variables become available to the destination URL (after submitting the form)?
