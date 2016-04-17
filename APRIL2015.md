@@ -299,14 +299,14 @@ PageRank is an algorithm used by Google Search to rank websites in their search 
 PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more important websites are likely to receive more links from other websites.
 #### Question 11
 - [T] UDP is less reliable than TCP.
-      The reason that UDP is less reliable than TCP as a transport protocol is that UDP provides neither error checking nor sequence
-numbering.
-- [F] Form validation should only be done in client side. [Validation can be done both in client and sever side.](http://stackoverflow.com/questions/15855770/why-do-we-need-both-client-side-and-server-side-validation)
+	[The reason that UDP is less reliable than TCP as a transport protocol is that UDP provides neither error checking nor sequence numbering.](http://www.it-docs.net/ddata/140.pdf)
+- [F] Form validation should only be done in client side. 
+	[Validation can be done both in client and sever side.](http://stackoverflow.com/questions/15855770/why-do-we-need-both-client-side-and-server-side-validation)
 - [T] Cookies are only data, not program code. lecture27.5-cookies_sessions.pdf
 - [F] Cookies cannot be used by third-party websites to track user browsing habits.
-- [ ] The "Remember Me" feature, where the user's login info is remembered and reused when the user comes back is implemented requries the use of persistent cookies.
-- [ ] In asynchronous communication, a user cannot interact with a webpage while new data is loaded from the server.
-- [ ] In a 3-tier architecture unconnected tiers should not communicate.
-- [ ] Using the universal selector (*) in a Javascript function to do DOM manipulation will increase the performance of your script.
-- [ ] XML representation is less verbose thant JSON(i.e., XML is using fewer words to describe a model than JSON), hence XML is the preferred data interchange format in online applications.
+- [F] The "Remember Me" feature, where the user's login info is remembered and reused when the user comes back is implemented requries the use of persistent cookies.
+- [F] In asynchronous communication, a user cannot interact with a webpage while new data is loaded from the server.
+- [T] In a 3-tier architecture unconnected tiers should not communicate.
+- [F] Using the universal selector (*) in a Javascript function to do DOM manipulation will increase the performance of your script.
+- [F] XML representation is less verbose thant JSON(i.e., XML is using fewer words to describe a model than JSON), hence XML is the preferred data interchange format in online applications.
 - [F] POST method can submit data without encoding. ???
