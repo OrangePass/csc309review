@@ -1,3 +1,4 @@
+### HTTP
 1 **What is the internet?**
  * A collection of computer networks that use a protocol to exchange data.
 
@@ -44,14 +45,6 @@
 
 7 **TCP/IP: Protocol Framework**
 
-| TCP/IP Layers           | TCP/IP Protocols |            |                            |      |
-|-------------------------|:----------------:|------------|----------------------------|------|
-| Application Layer       |       HTTP       | FTP        | SMTP                       | DNS  |
-| Transport Layer         |        TCP       | UDP        |                            |      |
-| Network Layer           |        IP        | ARP        | ICMP                       | IGMP |
-| Network Interface Layer |     Ethernet     | Token Ring | Other Link=Layer Protocols |      |
-
-
 <table>
   <tr>
     <th>TCP/IP Layers</th>
@@ -88,3 +81,22 @@
     <td colspan="2">Other Link-Layer Protocols</td>
   </tr>
 </table>
+
+8 **TCP/IP**
+
+9 **Types of Connection (TCP/UDP)**
+* Connection oriented model
+ * Like phone calls
+ * Uses Transmission Control Protocol (TCP)
+ * Defined ordering of messages and acks
+* Connectionless model
+ * Like sending letters via postal service
+ * Uses User Datagram Protocol (UDP)
+ * More efficient and good for sending broadcasts to many machines
+
+### HTML
+1. Hypertext Markup Language (HTML)
+ * Describes the content and structure of information on a web page
+ * Not the same as the presentation (appearance on screen)
+ * Surrounds text content with opening and closing tags
+ * Each tag's name is called an element
