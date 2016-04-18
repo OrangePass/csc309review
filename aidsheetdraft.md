@@ -120,3 +120,23 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  *	it	remembers	nothing	between	invoca9ons	
  *	Short	lived	
  *	**EVERY**	resource	that	is	accessed	via	HTTP	is	a	single	request	with	no	threaded	connection	between	them.
+
+* Adding state to HTTP
+ * Client Mechanisms:
+  * Cookies
+  * Hidden Variables
+  * URL Rewriting
+  * Local Storage
+* Server Mechanisms:
+ * sessions
+
+* Cookies
+ * A	small	amount	of	informa9on	sent	by	a	server	to	a	browser,	and	then	sent	back	by	the	browser	on	future	page	requests.
+ * Motivation:
+  *	authen9ca9on	
+  *	user	tracking	
+  *	maintaining	user	preferences,	shopping	carts,	etc.	
+ * Set by the server
+ * Sent with the HTTP Response header
+ * Returned by browser with HTTP Request
+ * 
