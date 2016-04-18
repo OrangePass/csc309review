@@ -238,6 +238,21 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
     * VA (Veterans Affairs): employee took computer with personal info home & his home was burglarized
    * CA laws require companies to disclose theft/loss
    * Even for encrypted data, should store key in separate media
+  9. Designing-In Security
+    * Design features with security in mind
+      * Not as an afterthought
+      * Hard to “add-on” security later
+    * Define concrete, measurable security goals. Ex:
+      * Only certain users should be able to do X. Log action.
+      * Output of feature Y should be encrypted.
+      * Feature Z should be available 99.9% of the time
+    * Bad Examples: Windows 98, Internet 
+  10. IP Whitelisting & Spoofing
+    * IP Whitelisting: accepting communications only from hosts with certain IP addresses
+    * IP Spoofing attack: attacker mislabels (i.e. lies) source address on packets, slips past firewall
+    * Response to spoofing sent to host, not attacker
+      * Multiple communication rounds makes attack harder
+      * May DoS against legitimate host to prevent response
 
 3. Client State Manipulation (Chapter 7)
   * Web application – collection of programs used by server to reply to client (browser) requests
