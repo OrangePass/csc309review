@@ -173,6 +173,7 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  * Session	hijacking!	Add	unique	value	+	signature
 
 Web Security
+
 1. **Security Goals (Chapter 1)**
  * Seven Key Security Concepts:
   1. Authentication
@@ -183,6 +184,7 @@ Web Security
   6. Availability
   7. Non-Repudiation
  * System Example: Web Client-Server Interaction
+
 2. **Secure Systems Design (Chapter 2)**
  * **Understanding Threats**
   1. **Defacement**
@@ -238,6 +240,9 @@ Web Security
    * CA laws require companies to disclose theft/loss
    * Even for encrypted data, should store key in separate media
 3. Client State Manipulation (Chapter 7)
-4. SQL-Injection (Chapter 8)
+
+4. SQL-Injection (Chapter 8
+
 5. Password Security (Chapter 9)
+
 6. Cross-Domain Security in Web Applications
