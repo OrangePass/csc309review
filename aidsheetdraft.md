@@ -1,5 +1,3 @@
-### Web Security
-
 1. **Security Goals (Chapter 1)**
  * Seven Key Security Concepts:
   1. Authentication
