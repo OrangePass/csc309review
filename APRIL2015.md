@@ -270,12 +270,14 @@ Instead, NOSQL will appear in the EXAM.
 ###### Simple diagram for MVC architecture:
 ##### (c) What is CSS Image Sprites? Describe the concept with some code demonstration.
 ##### (d) Describe four tactics (just the terminology of it) to improve the performance of your web based application. Two of them should be related to the client side and two of them should be related to server side.
-###### Related to server performance:
-1.
-2.
-###### Related to client performance:
-1.
-2.
+* **Related to server performance:**
+1. Increase parallelism of node.js
+2. Caching
+3. DB index 
+
+* **Related to client performance:**
+1. gzip
+2. cache control
 #### Question 9
 ##### (a) SQL Injection: Give a brief description and a simple SQL example that clearly demonstrates your understanding of the threat.
 SQL Injection:
@@ -285,10 +287,10 @@ Click Fraud:
 Clikc Fraud Example (in words):
 ##### (c) What is IP Spoofing and how it can be used to orchestrate a Denial of Service(Dos) attack to a legitimate website?
 ##### (d) Give a one-sentence definition of the following four terms:
-DNS Cache Poisoning:
-HoneyPot:
-Salting:
-Same-origin Policy:
+* **DNS Cache Poisoning**: attacker is able to compromise DNS tables so as to redirect legitimate URL to their spoofed site
+* **HoneyPot**: A honeypot is a simple username/password as honey used as bait to attract attackers
+* **Salting**: Random data attached to a password before hashing to prevent against rainbow-table attacks and looking for common passwords in a list of hashes.
+* **Same-origin Policy**: A web browser will only let a script access data on a second web page if it has the same origin (read: domain name). (Same protocol, port and host)
 #### Question 10
 ##### (a) Mention two ways of making money on a website:
 1. Email Marketing
