@@ -343,3 +343,11 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
       * http://www.examplesite.org:8080/thar
       * http://www.hackerhome.org/yonder
       * Different protocol: http vs. https, different ports: 80 vs.8080, different hosts: examplesite vs. hackerhome
+
+### Cloud
+* What is a cloud?
+  * Collection of computational	resources(hardware and software) delivered over a network, usually the Internet.	
+  * 3	distinct aspects makes something a “cloud”:	
+    *	Resources	are	usually	metered	(pay-per-use).	
+    *	Resources	can	be	provisioned	on-demand.	
+    *	Resources	can	be	manipulated	via	API.	
