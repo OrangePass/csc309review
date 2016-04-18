@@ -131,7 +131,7 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  * sessions
 
 * Cookies
- * A	small	amount	of	informa9on	sent	by	a	server	to	a	browser,	and	then	sent	back	by	the	browser	on	future	page	requests.
+ * A	small	amount	of	information	sent	by	a	server	to	a	browser,	and	then	sent	back	by	the	browser	on	future	page	requests.
  * Motivation:
   *	authen9ca9on	
   *	user	tracking	
@@ -139,4 +139,18 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  * Set by the server
  * Sent with the HTTP Response header
  * Returned by browser with HTTP Request
- * 
+ 
+ * How long does a cookie exist?
+ * **session	cookie**	:	the	default	type;	a	temporary	cookie	that	is	stored	only	in	the	browser's	memory	
+  * when	the	browser	is	closed,	temporary	cookies	will	be	erased	
+  * can	not	be	used	for	tracking	long-term	informa9on	
+  * safer,	because	no	programs	other	than	the	browser	can	access	them
+ * **persistent	cookie**	:	one	that	is	stored	in	a	file	on	the	browser's	computer	
+  * can	track	long-term	informa9on	
+  * potentially	less	secure,	because	users	(or	programs	they	run)	can	open	cookie	files,	see/change	the	cookie	values,	etc.
+ 
+ * URL Rewriting： Store	state	in	the	URL:	Rewrite	URLs	so	that	they	include	state	variables		
+  *	Each	URL	is	now	a	get	request		
+  *	Supported	by	all	browsers		
+  *	Requires	all	URLs	contain	all	state	information	(long	URLs)		
+  *	Current	submiked	page	represents	current	state independent	of	what	was	done	previously.
