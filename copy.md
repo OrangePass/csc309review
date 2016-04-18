@@ -387,3 +387,16 @@ PageRank works by counting the number and quality of links to a page to determin
 - [F] Using the universal selector (*) in a Javascript function to do DOM manipulation will increase the performance of your script.
 - [F] XML representation is less verbose thant JSON(i.e., XML is using fewer words to describe a model than JSON), hence XML is the preferred data interchange format in online applications.
 - [F] POST method can submit data without encoding. ???
+
+```javascript
+var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello World');
+});
+
+app.listen(3000, function () {
+  console.log('app is listening at port 3000');
+});
+```
