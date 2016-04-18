@@ -1,15 +1,92 @@
+### Web Security
+
+1. **Security Goals (Chapter 1)**
+ * Seven Key Security Concepts:
+  1. Authentication
+  2. Authorization
+  3. Confidentiality
+  4. Data / Message Integrity
+  5. Accountability
+  6. Availability
+  7. Non-Repudiation
+ * System Example: Web Client-Server Interaction
+
+2. **Secure Systems Design (Chapter 2)**
+ * **Understanding Threats**
+  1. **Defacement**
+   * Online Vandalism, attackers replace legitimate pages with illegitimate ones
+   * Targeted towards political web sites
+   * Ex: White House website defaced by anti-NATO activists
+  2. **Infiltration**
+   * An attempt to sneak across a secure place
+   * Unauthorized parties gain access to resources of computer system (e.g. CPUs, disk, network bandwidth)
+   * Could gain read/write access to back-end DB
+   * Ensure that attacker’s writes can be detected
+   * Different goals for different organizations
+    * Political site only needs integrity of data
+    * Financial site needs integrity & confidentiality
+  3. **Phishing**
+   * Attacker sets up spoofed site that looks real
+    * Lures users to enter login credentials and stores them
+    * Usually sent through an e-mail with link to spoofed site asking users to “verify” their account info
+     * The links might be disguised through the click texts
+     * Wary users can see actual URL if they hover over link
+  4. **Pharming**
+   * Like phishing, attacker’s goal is to get user to enter sensitive data into spoofed website
+   * Larger number of users is victimized
+   * no conscious action is required by the victim
+   * DNS Cache Poisoning – attacker is able to compromise DNS tables so as to redirect legitimate URL to their spoofed site
+     * DNS translates URL to IP addresses
+     * Attacker makes DNS translate legitimate URL to their IP address
+     * the result gets cached, poisoning future accesses
+  5. **Insider Threats**
+   * Attacks carried out with cooperation of insiders
+    * Insiders could have access to data and leak it
+    * Ex: DB and Sys Admins usually get complete access
+   * Separation of Privilege / Least Privilege Principle
+    * Provide individuals with only enough privileges needed to complete their tasks
+    * Don’t give unrestricted access to all data and resources 
+  6. **Click Fraud**
+   * Targeted against pay-per-click ads
+   * Attacker could click on competitor’s ads
+    * Uses up competitor’s ad budgets
+    * Gains exclusive attention of legitimate users
+   * Site publishers could click on ads to get revenue
+   * Automated through malware such as botnets
+  7. **Denial of Service**
+   * Attacker supply server with an excess of packets causing it to drop legitimate packets
+    * Makes service unavailable, downtime = lost revenue
+   * Particularly a threat for financial and ecommerce vendors
+   * Can be automated through botnets
+  8. **Data Theft/Loss**
+   * Several Examples: BofA, ChoicePoint, VA
+    * BofA: backup data tapes lost in transit
+    * ChoicePoint: fraudsters queried DB for sensitive info
+    * VA (Veterans Affairs): employee took computer with personal info home & his home was burglarized
+   * CA laws require companies to disclose theft/loss
+   * Even for encrypted data, should store key in separate media
+3. Client State Manipulation (Chapter 7)
+
+4. SQL-Injection (Chapter 8
+
+5. Password Security (Chapter 9)
+
+6. Cross-Domain Security in Web Applications
+
+
+
 ### HTTP
 
-  1 **What is the internet?**
+  1. **What is the internet?**
    * A collection of computer networks that use a protocol to exchange data.
 
-  2 **Internet Protocol (IP)**
+  2. **Internet Protocol (IP)**
    * Simple protocol for data exchange between computers
    * IP Addresses:
     * 32-bit for IPv5
     * 128-bit for IPv6
 
-  2 **Transmission Control Protocol (TCP)**
+  3. **Transmission Control Protocol (TCP)**
    * Adds multiplexing and reliable delivery on top of IP
     * Multiplexing: multiple programs using the same IP address
     * Reliability: guaranteed, ordered and error-checked delivery
@@ -19,16 +96,16 @@
     * port 22: ssh
    * Some programs (games, streaming media programs) use simpler UDP protocol instead of TCP
 
-  3 **Web Browser Vs Web Server**
+  4. **Web Browser Vs Web Server**
    * Web Browser requests and parses documents from web servers
    * Web Server listens for web page requests
 
-  4 **Domain Name Server (DNS)**
+  5. **Domain Name Server (DNS)**
    * Set of servers that map (translate) written names to IP addresses
     * Example: www.cs.toronto.edu → 128.100.3.40
    * Many systems maintain a local cache called a hosts file
 
-  5 **Uniform Resource Locator (URL)**
+  6. **Uniform Resource Locator (URL)**
    * Identifies the path to a document on the web server
    * Upon entering this URL into the browser, it would:
     * ask the DNS server for the IP address of the URL
@@ -37,14 +114,14 @@
      * GET mashiyat/csc309/index.htm
     * parse and display the resulting page on the screen
 
-  6 **Hypertext Transport Protocol (HTTP)**
+  7. **Hypertext Transport Protocol (HTTP)**
    * Set of commands understood by a web server and sent from a browser
    * Some HTTP commands (your browser sends these internally):
     * GET filename: download
     * POST filename: send a web form response
     * PUT filename: upload
 
-  7 **TCP/IP: Protocol Framework**
+  8. **TCP/IP: Protocol Framework**
 
   <table>
     <tr>
@@ -83,9 +160,9 @@
     </tr>
   </table>
 
-  8 **TCP/IP**
+  9. **TCP/IP**
 
-  9 **Types of Connection (TCP/UDP)**
+  10. **Types of Connection (TCP/UDP)**
   * Connection oriented model
    * Like phone calls
    * Uses Transmission Control Protocol (TCP)
@@ -172,79 +249,3 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  *	At	each	request,	the	execu9ng	script	uses	the	token	to	fetch	session	state	
  * Session	hijacking!	Add	unique	value	+	signature
 
-### Web Security
-11. James Madison
-2. James Monroe
-3. John Quincy Adams
-1. **Security Goals (Chapter 1)**
- * Seven Key Security Concepts:
-  1. Authentication
-  2. Authorization
-  3. Confidentiality
-  4. Data / Message Integrity
-  5. Accountability
-  6. Availability
-  7. Non-Repudiation
- * System Example: Web Client-Server Interaction
-
-2. **Secure Systems Design (Chapter 2)**
- * **Understanding Threats**
-  1. **Defacement**
-   * Online Vandalism, attackers replace legitimate pages with illegitimate ones
-   * Targeted towards political web sites
-   * Ex: White House website defaced by anti-NATO activists
-  2. **Infiltration**
-   * An attempt to sneak across a secure place
-   * Unauthorized parties gain access to resources of computer system (e.g. CPUs, disk, network bandwidth)
-   * Could gain read/write access to back-end DB
-   * Ensure that attacker’s writes can be detected
-   * Different goals for different organizations
-    * Political site only needs integrity of data
-    * Financial site needs integrity & confidentiality
-  3. **Phishing**
-   * Attacker sets up spoofed site that looks real
-    * Lures users to enter login credentials and stores them
-    * Usually sent through an e-mail with link to spoofed site asking users to “verify” their account info
-     * The links might be disguised through the click texts
-     * Wary users can see actual URL if they hover over link
-  4. **Pharming**
-   * Like phishing, attacker’s goal is to get user to enter sensitive data into spoofed website
-   * Larger number of users is victimized
-   * no conscious action is required by the victim
-   * DNS Cache Poisoning – attacker is able to compromise DNS tables so as to redirect legitimate URL to their spoofed site
-     * DNS translates URL to IP addresses
-     * Attacker makes DNS translate legitimate URL to their IP address
-     * the result gets cached, poisoning future accesses
-  5. **Insider Threats**
-   * Attacks carried out with cooperation of insiders
-    * Insiders could have access to data and leak it
-    * Ex: DB and Sys Admins usually get complete access
-   * Separation of Privilege / Least Privilege Principle
-    * Provide individuals with only enough privileges needed to complete their tasks
-    * Don’t give unrestricted access to all data and resources 
-  6. **Click Fraud**
-   * Targeted against pay-per-click ads
-   * Attacker could click on competitor’s ads
-    * Uses up competitor’s ad budgets
-    * Gains exclusive attention of legitimate users
-   * Site publishers could click on ads to get revenue
-   * Automated through malware such as botnets
-  7. **Denial of Service**
-   * Attacker supply server with an excess of packets causing it to drop legitimate packets
-    * Makes service unavailable, downtime = lost revenue
-   * Particularly a threat for financial and ecommerce vendors
-   * Can be automated through botnets
-  8. **Data Theft/Loss**
-   * Several Examples: BofA, ChoicePoint, VA
-    * BofA: backup data tapes lost in transit
-    * ChoicePoint: fraudsters queried DB for sensitive info
-    * VA (Veterans Affairs): employee took computer with personal info home & his home was burglarized
-   * CA laws require companies to disclose theft/loss
-   * Even for encrypted data, should store key in separate media
-3. Client State Manipulation (Chapter 7)
-
-4. SQL-Injection (Chapter 8
-
-5. Password Security (Chapter 9)
-
-6. Cross-Domain Security in Web Applications
