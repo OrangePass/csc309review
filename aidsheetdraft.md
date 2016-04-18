@@ -113,3 +113,10 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
 * You	can	change	the	extension	of	.CSS	files	to	.LESS	and	start	typing	LESS	
 • You	can	define	namespaces	similar	to	C/C++	that	can	ignore	variables?	
 • You	can	use	CSS	funcBons	by	escaping	them
+
+### Session & Cookies
+* HTTP is Stateless
+ *	it	simply	allows	a	browser	to	request	a	single	document	from	a	web	server	
+ *	it	remembers	nothing	between	invoca9ons	
+ *	Short	lived	
+ *	**EVERY**	resource	that	is	accessed	via	HTTP	is	a	single	request	with	no	threaded	connection	between	them.
