@@ -4,8 +4,8 @@
 ##### (b) Mention three different ways to maintain state in HTTP sessions?
 ##### (c) The HTTP protocol allows to send a GET or a POST request to the server, for example when submitting an html form. Give 2 reasons for using POST (instead of GET) in a bulleted format:
 A POST request is more appropriate than a GET because:
-1.
-2.
+1. POST is more secure. Post cannot be viewed by others
+2. POST has no limit for the amount of data that needs to be sent.
 #### Question 2
 ```html
 <html>
