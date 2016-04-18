@@ -238,9 +238,24 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
     * VA (Veterans Affairs): employee took computer with personal info home & his home was burglarized
    * CA laws require companies to disclose theft/loss
    * Even for encrypted data, should store key in separate media
-3. Client State Manipulation (Chapter 7)
 
-4. SQL-Injection (Chapter 8
+3. Client State Manipulation (Chapter 7)
+  * Web application – collection of programs used by server to reply to client (browser) requests
+    * Often accept user input: don’t trust, validate!
+  * HTTP is stateless, servers don’t keep state
+    * To conduct transactions, web apps have state  
+    * State info may be sent to client who echoes it back in future requests
+  * Example Exploit: “Hidden” parameters in HTML are not really hidden, can be manipulated
+4. SQL-Injection (Chapter 8)
+  * Command injection vulnerability - untrusted input inserted into query or command
+    * Attack string alters intended semantics of command
+    * Ex: SQL Injection - unsanitized data used in query to back-end database (DB)
+  * SQL Injection Examples & Solutions
+    * Type 1: compromises user data
+    * Type 2: modifies critical data
+    * Whitelisting over Blacklisting
+    * Escaping
+    * Prepared Statements and Bind Variables
 
 5. Password Security (Chapter 9)
   * Basic password system
@@ -297,5 +312,19 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
       * Last Login
       * Image Authentication
       * One-Time Passwords
-
 6. Cross-Domain Security in Web Applications
+  * Domain: where our apps & services are hosted
+  * Cross-domain: security threats due to interactions between our applications and pages on other domains
+  * Alice is simultaneously (i.e. same browser session), using our (“good”) web-application and a “malicious” web-application
+  * **Same-origin policy**: scripts can only access properties (cookies, DOM objects) of documents of same origin
+    * ex:
+    * Same Origin
+      * http://www.examplesite.org/here
+      * http://www.examplesite.org/there
+      * same protocol: http, host: examplesite, default port 80
+    * All Different Origins
+      * http://www.examplesite.org/here
+      * https://www.examplesite.org/there
+      * http://www.examplesite.org:8080/thar
+      * http://www.hackerhome.org/yonder
+      * Different protocol: http vs. https, different ports: 80 vs.8080, different hosts: examplesite vs. hackerhome
