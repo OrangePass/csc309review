@@ -154,3 +154,8 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
   *	Supported	by	all	browsers		
   *	Requires	all	URLs	contain	all	state	information	(long	URLs)		
   *	Current	submiked	page	represents	current	state independent	of	what	was	done	previously.
+
+* Session - Persistent State：Current	state	is	stored	at	the	server	(i.e.,	in	a	file,	database)	
+ *	Each	request	includes	a	token	identifying	the		browsers	session	(tokens	can	be	passed	via	cookies,	hidden	variables,	URL rewriting).		
+ *	At	each	request,	the	execu9ng	script	uses	the	token	to	fetch	session	state	
+ * Session	hijacking!	Add	unique	value	+	signature
