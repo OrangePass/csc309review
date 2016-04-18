@@ -32,7 +32,7 @@
 </html>
 ```
 ##### (a) Draw how the above HTML code will appear on a contemporary browser.
-<img scr="https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q2.png">
+<img src="https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q2.png">
 ##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
 Destination URL: ./process.php
 ##### (c) How many variables become available to the destination URL (after submitting the form)?
@@ -140,7 +140,6 @@ function change() {
 ```
 #### Question 4
 ##### (a) Write HTML code that represents the following HTML form. Your form should send the submitted request using the GET method to a new webpage with the name "form_submitted.php". You do not need to make any validation on the client side.
-![alt text](https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q4.png "别瞅了，我自己做的")
 <img src="https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q4.png">
 <br>
 <br>
