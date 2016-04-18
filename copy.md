@@ -1,11 +1,3 @@
-# CSC309 APRIL 2015 EXAM SOLUTION
-#### Question 1
-##### (a) What it means that the HTTP protocol is stateless?
-##### (b) Mention three different ways to maintain state in HTTP sessions?
-##### (c) The HTTP protocol allows to send a GET or a POST request to the server, for example when submitting an html form. Give 2 reasons for using POST (instead of GET) in a bulleted format:
-A POST request is more appropriate than a GET because:
-1. POST is more secure. Post cannot be viewed by others
-2. POST has no limit for the amount of data that needs to be sent.
 #### Question 2
 ```html
 <html>
@@ -40,6 +32,12 @@ A POST request is more appropriate than a GET because:
 </html>
 ```
 ##### (a) Draw how the above HTML code will appear on a contemporary browser.
+
+
+
+
+
+
 ![alt text](https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q2.png "别瞅了，这就是答案")
 ##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
 Destination URL: ./process.php
