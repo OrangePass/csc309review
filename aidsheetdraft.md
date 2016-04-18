@@ -170,3 +170,73 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  *	Each	request	includes	a	token	identifying	the		browsers	session	(tokens	can	be	passed	via	cookies,	hidden	variables,	URL rewriting).		
  *	At	each	request,	the	execu9ng	script	uses	the	token	to	fetch	session	state	
  * Session	hijacking!	Add	unique	value	+	signature
+
+### Web Security
+1. Security Goals (Chapter 1)
+ * Seven Key Security Concepts:
+  1. Authentication
+  2. Authorization
+  3. Confidentiality
+  4. Data / Message Integrity
+  5. Accountability
+  6. Availability
+  7. Non-Repudiation
+ * System Example: Web Client-Server Interaction
+2. Secure Systems Design (Chapter 2)
+ * **Understanding Threats**
+  1. Defacement
+  * Online Vandalism, attackers replace legitimate pages with illegitimate ones
+  * Targeted towards political web sites
+  * Ex: White House website defaced by anti-NATO activists
+  2. Infiltration
+   * An attempt to sneak across a secure place
+   * Unauthorized parties gain access to resources of computer system (e.g. CPUs, disk, network bandwidth)
+   * Could gain read/write access to back-end DB
+   * Ensure that attacker’s writes can be detected
+   * Different goals for different organizations
+    * Political site only needs integrity of data
+    * Financial site needs integrity & confidentiality
+  3. Phishing
+   * Attacker sets up spoofed site that looks real
+    * Lures users to enter login credentials and stores them
+    * Usually sent through an e-mail with link to spoofed site asking users to “verify” their account info
+     * The links might be disguised through the click texts
+     * Wary users can see actual URL if they hover over link
+  4. Pharming
+   * Like phishing, attacker’s goal is to get user to enter sensitive data into spoofed website
+   * Larger number of users is victimized
+   * no conscious action is required by the victim
+   * DNS Cache Poisoning – attacker is able to compromise DNS tables so as to redirect legitimate URL to their spoofed site
+     * DNS translates URL to IP addresses
+     * Attacker makes DNS translate legitimate URL to their IP address
+     * the result gets cached, poisoning future accesses
+  5. Insider Threats
+   * Attacks carried out with cooperation of insiders
+    * Insiders could have access to data and leak it
+    * Ex: DB and Sys Admins usually get complete access
+   * Separation of Privilege / Least Privilege Principle
+    * Provide individuals with only enough privileges needed to complete their tasks
+    * Don’t give unrestricted access to all data and resources 
+  6. Click Fraud
+   * Targeted against pay-per-click ads
+   * Attacker could click on competitor’s ads
+    * Uses up competitor’s ad budgets
+    * Gains exclusive attention of legitimate users
+   * Site publishers could click on ads to get revenue
+   * Automated through malware such as botnets
+  7. Denial of Service
+   * Attacker supply server with an excess of packets causing it to drop legitimate packets
+    * Makes service unavailable, downtime = lost revenue
+   * Particularly a threat for financial and ecommerce vendors
+   * Can be automated through botnets
+  8. Data Theft/Loss
+   * Several Examples: BofA, ChoicePoint, VA
+    * BofA: backup data tapes lost in transit
+    * ChoicePoint: fraudsters queried DB for sensitive info
+    * VA (Veterans Affairs): employee took computer with personal info home & his home was burglarized
+   * CA laws require companies to disclose theft/loss
+   * Even for encrypted data, should store key in separate media
+3. Client State Manipulation (Chapter 7)
+4. SQL-Injection (Chapter 8)
+5. Password Security (Chapter 9)
+6. Cross-Domain Security in Web Applications
