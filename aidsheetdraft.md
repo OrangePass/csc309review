@@ -172,6 +172,10 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  *	At	each	request,	the	execu9ng	script	uses	the	token	to	fetch	session	state	
  * Session	hijacking!	Add	unique	value	+	signature
 
+### Web Security
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
 1. **Security Goals (Chapter 1)**
  * Seven Key Security Concepts:
   1. Authentication
