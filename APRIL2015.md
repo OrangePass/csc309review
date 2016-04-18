@@ -44,20 +44,54 @@ A POST request is more appropriate than a GET because:
 ##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
 Destination URL: ./process.php
 ##### (c) How many variables become available to the destination URL (after submitting the form)?
-Number of Variables: 9
+Number of Variables: 10
 ##### (d) List the variable name and variable value of all the variables that become availabe in the destination URL if a user submits the above form as-is (without filling-in any extra fields). If a variable is empty or null just indicate its value as "N/A" (Not Available).
-| Variable Name | Variable Value|
-| ------------- |:-------------:|
-|    name       |      N/A      |
-|    email      |      N/A      |
-|    phone      |      N/A      |
-|     url       |      N/A      |
-|     sex       |      male     |
-|    contact    |     phone     |
-|   product_id  |      23       |
-|    form_id    |     form1     |
-|   language    |     English   |
-|   comment     |      N/A      |
+<table>
+  <tr>
+    <th>Variable Name</th>
+    <th>Variable Value</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>email</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>phone</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>sex</td>
+    <td>female</td>
+  </tr>
+  <tr>
+    <td>contact</td>
+    <td>phone</td>
+  </tr>
+  <tr>
+    <td>product_id</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>form_id</td>
+    <td>form1</td>
+  </tr>
+  <tr>
+    <td>language</td>
+    <td>English</td>
+  </tr>
+  <tr>
+    <td>comment</td>
+    <td>N/A</td>
+  </tr>
+</table>
 
 #### Question 3
 You are given a web page with any arbitrary number of images, videos, and information about them. Write a Javascript function "change()" that will remove or hide all the information in the page and display only the images. A snippet of the webpage's html is provided below. Your code should work for any arbitrary numbe of img or any other elements. Partial marks will be granted for providing adequate pseudocode as an answer.
