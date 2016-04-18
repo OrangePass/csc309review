@@ -1,78 +1,3 @@
-1. **Security Goals (Chapter 1)**
- * Seven Key Security Concepts:
-  1. Authentication
-  2. Authorization
-  3. Confidentiality
-  4. Data / Message Integrity
-  5. Accountability
-  6. Availability
-  7. Non-Repudiation
- * System Example: Web Client-Server Interaction
-
-2. **Secure Systems Design (Chapter 2)**
- * **Understanding Threats**
-  1. **Defacement**
-   * Online Vandalism, attackers replace legitimate pages with illegitimate ones
-   * Targeted towards political web sites
-   * Ex: White House website defaced by anti-NATO activists
-  2. **Infiltration**
-   * An attempt to sneak across a secure place
-   * Unauthorized parties gain access to resources of computer system (e.g. CPUs, disk, network bandwidth)
-   * Could gain read/write access to back-end DB
-   * Ensure that attacker’s writes can be detected
-   * Different goals for different organizations
-    * Political site only needs integrity of data
-    * Financial site needs integrity & confidentiality
-  3. **Phishing**
-   * Attacker sets up spoofed site that looks real
-    * Lures users to enter login credentials and stores them
-    * Usually sent through an e-mail with link to spoofed site asking users to “verify” their account info
-     * The links might be disguised through the click texts
-     * Wary users can see actual URL if they hover over link
-  4. **Pharming**
-   * Like phishing, attacker’s goal is to get user to enter sensitive data into spoofed website
-   * Larger number of users is victimized
-   * no conscious action is required by the victim
-   * DNS Cache Poisoning – attacker is able to compromise DNS tables so as to redirect legitimate URL to their spoofed site
-     * DNS translates URL to IP addresses
-     * Attacker makes DNS translate legitimate URL to their IP address
-     * the result gets cached, poisoning future accesses
-  5. **Insider Threats**
-   * Attacks carried out with cooperation of insiders
-    * Insiders could have access to data and leak it
-    * Ex: DB and Sys Admins usually get complete access
-   * Separation of Privilege / Least Privilege Principle
-    * Provide individuals with only enough privileges needed to complete their tasks
-    * Don’t give unrestricted access to all data and resources 
-  6. **Click Fraud**
-   * Targeted against pay-per-click ads
-   * Attacker could click on competitor’s ads
-    * Uses up competitor’s ad budgets
-    * Gains exclusive attention of legitimate users
-   * Site publishers could click on ads to get revenue
-   * Automated through malware such as botnets
-  7. **Denial of Service**
-   * Attacker supply server with an excess of packets causing it to drop legitimate packets
-    * Makes service unavailable, downtime = lost revenue
-   * Particularly a threat for financial and ecommerce vendors
-   * Can be automated through botnets
-  8. **Data Theft/Loss**
-   * Several Examples: BofA, ChoicePoint, VA
-    * BofA: backup data tapes lost in transit
-    * ChoicePoint: fraudsters queried DB for sensitive info
-    * VA (Veterans Affairs): employee took computer with personal info home & his home was burglarized
-   * CA laws require companies to disclose theft/loss
-   * Even for encrypted data, should store key in separate media
-3. Client State Manipulation (Chapter 7)
-
-4. SQL-Injection (Chapter 8
-
-5. Password Security (Chapter 9)
-
-6. Cross-Domain Security in Web Applications
-
-
-
 ### HTTP
 
   1. **What is the internet?**
@@ -247,3 +172,130 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  *	At	each	request,	the	execu9ng	script	uses	the	token	to	fetch	session	state	
  * Session	hijacking!	Add	unique	value	+	signature
 
+### Web Security
+1. **Security Goals (Chapter 1)**
+ * Seven Key Security Concepts:
+  1. Authentication
+  2. Authorization
+  3. Confidentiality
+  4. Data / Message Integrity
+  5. Accountability
+  6. Availability
+  7. Non-Repudiation
+ * System Example: Web Client-Server Interaction
+
+2. **Secure Systems Design (Chapter 2)**
+ * **Understanding Threats**
+  1. **Defacement**
+   * Online Vandalism, attackers replace legitimate pages with illegitimate ones
+   * Targeted towards political web sites
+   * Ex: White House website defaced by anti-NATO activists
+  2. **Infiltration**
+   * An attempt to sneak across a secure place
+   * Unauthorized parties gain access to resources of computer system (e.g. CPUs, disk, network bandwidth)
+   * Could gain read/write access to back-end DB
+   * Ensure that attacker’s writes can be detected
+   * Different goals for different organizations
+    * Political site only needs integrity of data
+    * Financial site needs integrity & confidentiality
+  3. **Phishing**
+   * Attacker sets up spoofed site that looks real
+    * Lures users to enter login credentials and stores them
+    * Usually sent through an e-mail with link to spoofed site asking users to “verify” their account info
+     * The links might be disguised through the click texts
+     * Wary users can see actual URL if they hover over link
+  4. **Pharming**
+   * Like phishing, attacker’s goal is to get user to enter sensitive data into spoofed website
+   * Larger number of users is victimized
+   * no conscious action is required by the victim
+   * DNS Cache Poisoning – attacker is able to compromise DNS tables so as to redirect legitimate URL to their spoofed site
+     * DNS translates URL to IP addresses
+     * Attacker makes DNS translate legitimate URL to their IP address
+     * the result gets cached, poisoning future accesses
+  5. **Insider Threats**
+   * Attacks carried out with cooperation of insiders
+    * Insiders could have access to data and leak it
+    * Ex: DB and Sys Admins usually get complete access
+   * Separation of Privilege / Least Privilege Principle
+    * Provide individuals with only enough privileges needed to complete their tasks
+    * Don’t give unrestricted access to all data and resources 
+  6. **Click Fraud**
+   * Targeted against pay-per-click ads
+   * Attacker could click on competitor’s ads
+    * Uses up competitor’s ad budgets
+    * Gains exclusive attention of legitimate users
+   * Site publishers could click on ads to get revenue
+   * Automated through malware such as botnets
+  7. **Denial of Service**
+   * Attacker supply server with an excess of packets causing it to drop legitimate packets
+    * Makes service unavailable, downtime = lost revenue
+   * Particularly a threat for financial and ecommerce vendors
+   * Can be automated through botnets
+  8. **Data Theft/Loss**
+   * Several Examples: BofA, ChoicePoint, VA
+    * BofA: backup data tapes lost in transit
+    * ChoicePoint: fraudsters queried DB for sensitive info
+    * VA (Veterans Affairs): employee took computer with personal info home & his home was burglarized
+   * CA laws require companies to disclose theft/loss
+   * Even for encrypted data, should store key in separate media
+3. Client State Manipulation (Chapter 7)
+
+4. SQL-Injection (Chapter 8
+
+5. Password Security (Chapter 9)
+  * Basic password system
+  * Hashing
+    * Encrypt passwords; don’t store “in the clear”
+      * Could encrypt/decrypt to check (key storage?)
+      * Even better: “one-way encryption”, no way to decrypt
+      * If file stolen, passwords not compromised
+      * Use one-way hash function h
+    * Ex: SHA-1 hashes stored in file, not plaintext passwd
+    ```
+    john:9Mfsk4EQh+XD2lBcCAvputrIuVbWKqbxPgKla7u67oo=
+    mary:AEd62KRDHUXW6tp+XazwhTLSUlADWXrinUPbxQEfnsI=
+    joe:J3mhF7Mv4pnfjcnoHZ1ZrUELjSBJFOo1r6D6fx8tfwU=
+    ```
+  * Offline Dictionary
+    * Attacks Offline: attacker steals file and tries combos
+    * Online: try combos against live system
+  * Salting
+    * Salting – include additional info in hash
+    * Add third field to file storing random # (salt)
+    * Example Entry: john with password automobile
+    * Hash of password concatenated with salt:
+      * h(automobile|1515) = ScF5GDhW... 
+    * **Salting: Good News**
+      * Dictionary attack against arbitrary user is harder
+        * Before Salts: hash word & compare with password file
+        * After Salts: hash combos of word & possible salts
+      * n-word dictionary, k-bit salts, v distinct salts:
+        * Attacker must hash n*min(v, 2k) strings vs. n (no salt)
+          * If many users (>> 2k, all salts used), 2k harder attack!
+          * Approx. same amount of work for password system 
+    * **Salting: Bad News**
+      * Ineffective against chosen-victim attack
+        * Attacker wants to compromise particular account
+        * Just hash dictionary words with victim’s salt
+      * Attacker’s job harder, not impossible
+        * Easy for attacker to compute 2kn hashes?
+        * Then offline dictionary attack still a threat
+  * Online Dictionary Attacks
+  * Attacker actively tries combos on live system
+  * Can monitor attacks
+    * Watch for lots of failed attempts
+    * Mark or block suspicious IPs
+  * Additional Password Security Techniques
+    * Several other techniques to help securely manage passwords: Mix and match ones that make sense for particular app
+      * Strong Passwords
+      * “Honeypots”
+      * Filtering
+      * Aging
+      * Pronounceable
+      * Limiting Logins
+      * Artificial Delays
+      * Last Login
+      * Image Authentication
+      * One-Time Passwords
+
+6. Cross-Domain Security in Web Applications
