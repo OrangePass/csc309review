@@ -1,4 +1,4 @@
-* HTTP
+### HTTP
 
   1 **What is the internet?**
    * A collection of computer networks that use a protocol to exchange data.
@@ -173,7 +173,7 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
  * Session	hijacking!	Add	unique	value	+	signature
 
 ### Web Security
-1. James Madison
+11. James Madison
 2. James Monroe
 3. John Quincy Adams
 1. **Security Goals (Chapter 1)**
