@@ -1,5 +1,5 @@
 ### HTTP
-1 **What is the internet?**
+1. **What is the internet?**
  * A collection of computer networks that use a protocol to exchange data.
 
 2 **Internet Protocol (IP)**
