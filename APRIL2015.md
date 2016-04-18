@@ -269,15 +269,38 @@ Instead, NOSQL will appear in the EXAM.
 ###### Simple diagram for 3-tier architecture:
 ###### Simple diagram for MVC architecture:
 ##### (c) What is CSS Image Sprites? Describe the concept with some code demonstration.
+An image sprite is a collection of images put into a single image to help with the performance.
+```CSS
+.flags-canada, .flags-mexico, .flags-usa {
+  background-image: url('../images/flags.png');
+  background-repeat: no-repeat;
+}
+
+.flags-canada {
+  height: 128px;
+  background-position: -5px -5px;
+}
+
+.flags-usa {
+  height: 135px;
+  background-position: -5px -143px;
+}
+
+.flags-mexico {
+  height: 147px;
+  background-position: -5px -288px;
+}
+```
 ##### (d) Describe four tactics (just the terminology of it) to improve the performance of your web based application. Two of them should be related to the client side and two of them should be related to server side.
 * **Related to server performance:**
-1. Increase parallelism of node.js
-2. Caching
-3. DB index 
+	1. Increase parallelism of node.js
+	2. Caching
+	3. DB index 
 
 * **Related to client performance:**
-1. gzip
-2. cache control
+	1. gzip
+	2. cache control
+
 #### Question 9
 ##### (a) SQL Injection: Give a brief description and a simple SQL example that clearly demonstrates your understanding of the threat.
 SQL Injection:
