@@ -118,7 +118,7 @@ CSS Pre-processor: converts code written in a preprocessec language to CSS
 * web browser builds a model of the web page (the document) that includes all the objects in the page (tags, text, etc)
 * All of the properties, methods, and events available to the web developer for manipulating and creating web pages are organized into objects
 * Those objects are accessible via scripting languages in modern web browsers
-* Why is this useful?
+* **Why is this useful?**
  * Because we can access the model too!
  * The model is made available to scripts running in the browser, not just the browser itself
  * A script can find things out about the state of the page
