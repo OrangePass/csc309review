@@ -252,11 +252,14 @@ var author3 = data.book.content.author[2];
 var storeAddress = data.book.content.store.address;
 ```
 #### Question 6
-##### (a)
-##### (b)
+##### (a) Synchronous: User must wait while new pages loads.
+##### (b) Asynchronous: User can keep interacting with page while data loads. ->AJAX
 ###### Model 1 All parts of the program are written in Javascript
+在客户端client里执行， 不会涉及到服务端， 没有数据会发送到服务端， 页面也不会刷新
 ###### Model 2 A classical server-side program (without use of Ajax)
+会把客户端的数据发送到服务端， 服务端处理完后， 再把处理结果返回给客户端， 页面会刷新。
 ###### Model 3 A web application using Ajax
+客户端通过ajax的方式把数据发送到服务端，服务端处理完后， 再把处理结果返回给ajax, 然后ajax再把结果写入到页面上。 页面不会刷新。 这种也就是异步方式
 #### Question 7
 I don't think this question is worth to be done.
 Instead, NOSQL will appear in the EXAM.
@@ -264,8 +267,6 @@ Instead, NOSQL will appear in the EXAM.
 ##### (a) Which architectural design pattern have you used in your project?
 ###### Our projects' web architechtural design is:
 ##### (b) Describe two differences between 3-tier Architecture and MVC Architecture. Draw diagrams for each architecture.
-1.
-2.
 ###### Simple diagram for 3-tier architecture:
 ###### Simple diagram for MVC architecture:
 ##### (c) What is CSS Image Sprites? Describe the concept with some code demonstration.
