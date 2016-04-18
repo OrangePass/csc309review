@@ -32,6 +32,13 @@
 </html>
 ```
 ##### (a) Draw how the above HTML code will appear on a contemporary browser.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <img src="https://github.com/OrangePass/csc309review/blob/master/src/img/april2015q2.png">
 ##### (b) What is the name of the destination URL (the webpage that will handle the submitted information)?
 Destination URL: ./process.php
